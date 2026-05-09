@@ -1,0 +1,14 @@
+title: Hangry Rail
+description: 3D printed mounts and hangers for 1x4 and 2x4 rail setups.
+theme: minima
+
+# URL settings for project pages
+url: https://sudo-robot-destroy.github.io
+baseurl: /hangry_rail
+
+markdown: kramdown
+
+# Keep output simple and focused on docs pages
+header_pages:
+  - index.md
+  - stl/index.md

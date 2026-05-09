@@ -9,15 +9,14 @@ https://sudo-robot-destroy.github.io/hangry_rail/
 ## Repository purpose
 
 - Store STL files and related print assets
-- Host a static project page via GitHub Pages
+- Host a Markdown-first project page via GitHub Pages + Jekyll theme
 
 ## Current starter structure
 
-- `index.html`: Main GitHub Pages homepage
-- `styles.css`: Site styling with theme variables
-- `script.js`: Theme switching and small page behavior
+- `_config.yml`: Jekyll/GitHub Pages site config and theme selection
+- `index.md`: Homepage written in Markdown
+- `stl/index.md`: STL library page written in Markdown
 - `stl/`: Folder for printable model files
-- `.nojekyll`: Ensures plain static file handling on GitHub Pages
 
 ## Adding STL files
 
@@ -25,30 +24,29 @@ https://sudo-robot-destroy.github.io/hangry_rail/
 2. Use clear, lowercase, hyphenated names (example: `socket-wrench-hook-v2.stl`).
 3. Optionally include preview images and slicer profiles (`.3mf`).
 
-See `stl/README.md` for a suggested layout.
+See `stl/README.md` and `stl/index.md` for the current layout and site page.
 
-## Theme customization
+## Theme customization (no CSS/JS needed)
 
-Theme colors are controlled by CSS variables in `styles.css`:
+Theme selection is controlled in `_config.yml`:
 
-- `:root` for default `workshop`
-- `:root[data-theme="blueprint"]`
-- `:root[data-theme="signal"]`
+- Current theme: `minima`
 
-To add a new theme:
+To change theme:
 
-1. Add a new `:root[data-theme="your-theme-name"]` block in `styles.css`.
-2. Add a matching `<option>` in `index.html` under the theme selector.
+1. Pick a GitHub Pages supported Jekyll theme.
+2. Update `theme:` in `_config.yml`.
+3. Push to `main` and Pages will rebuild.
 
-The selected theme is stored in browser local storage via `script.js`.
+Common built-in choices include `minima`, `jekyll-theme-cayman`, and `jekyll-theme-slate`.
 
 ## GitHub Pages notes
 
 - If Pages is configured to deploy from `main` branch root, pushes update the site.
-- If Pages is configured to deploy from `/docs`, move site files into a `docs/` folder.
+- This repo currently expects root-based publishing from `main`.
 
 ## Next ideas
 
-- Add a gallery page with one card per model and preview image
-- Add a printable BOM/instructions page
-- Add release notes for design revisions
+- Add per-model Markdown pages with print settings and photos
+- Add a changelog page for versioned model revisions
+- Add category pages that link to STL files in each folder
