@@ -11,4 +11,3 @@ markdown: kramdown
 # Keep output simple and focused on docs pages
 header_pages:
   - index.md
-  - stl/index.md

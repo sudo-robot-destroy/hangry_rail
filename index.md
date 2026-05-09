@@ -3,8 +3,6 @@ layout: home
 title: Hangry Rail
 ---
 
-# Hangry Rail
-
 A collection of 3D printed mounts and hangers for garage tools designed to mount to a horizontal 1x4 or 2x4 board.
 
 ## Start here
@@ -16,10 +14,4 @@ A collection of 3D printed mounts and hangers for garage tools designed to mount
 
 - Keep tool storage modular and easy to reconfigure
 - Share printable files and revision notes
-- Publish simple docs using Markdown only
 
-## Quick workflow
-
-1. Add files under stl/.
-2. Update docs pages in Markdown.
-3. Push to main to redeploy GitHub Pages.

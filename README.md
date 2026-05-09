@@ -26,27 +26,9 @@ https://sudo-robot-destroy.github.io/hangry_rail/
 
 See `stl/README.md` and `stl/index.md` for the current layout and site page.
 
-## Theme customization (no CSS/JS needed)
-
-Theme selection is controlled in `_config.yml`:
-
-- Current theme: `minima`
-
-To change theme:
-
-1. Pick a GitHub Pages supported Jekyll theme.
-2. Update `theme:` in `_config.yml`.
-3. Push to `main` and Pages will rebuild.
-
 Common built-in choices include `minima`, `jekyll-theme-cayman`, and `jekyll-theme-slate`.
 
 ## GitHub Pages notes
 
-- If Pages is configured to deploy from `main` branch root, pushes update the site.
 - This repo currently expects root-based publishing from `main`.
 
-## Next ideas
-
-- Add per-model Markdown pages with print settings and photos
-- Add a changelog page for versioned model revisions
-- Add category pages that link to STL files in each folder
