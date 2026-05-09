@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary archives / exports
+*.zip
+*.tmp
+
+# Python cache (if utility scripts are added later)
+__pycache__/
+*.pyc

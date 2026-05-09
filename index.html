@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" data-theme="workshop">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hangry Rail: modular 3D printable mounts and hangers for workshop organization."
+    />
+    <title>Hangry Rail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow"></div>
+
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">3D Print Project</p>
+        <h1>Hangry Rail</h1>
+        <p class="subtitle">
+          A collection of practical mounts and hangers designed to snap your
+          garage workflow into place.
+        </p>
+      </div>
+
+      <label class="theme-control" for="theme-select">
+        Theme
+        <select id="theme-select" aria-label="Choose site theme">
+          <option value="workshop">Workshop</option>
+          <option value="blueprint">Blueprint</option>
+          <option value="signal">Signal</option>
+        </select>
+      </label>
+    </header>
+
+    <main>
+      <section class="panel intro">
+        <h2>Built for rails, boards, and real tools</h2>
+        <p>
+          Print-ready designs for horizontal 1x4 and 2x4 mounting rails. Mix and
+          match holders to keep frequently used tools visible and easy to grab.
+        </p>
+      </section>
+
+      <section class="panel stl-library" aria-labelledby="stl-library-title">
+        <div class="section-head">
+          <h2 id="stl-library-title">STL Library</h2>
+          <a class="ghost-button" href="./stl/">Open STL folder</a>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Hooks & Hangers</h3>
+            <p>General-purpose hooks for cords, tapes, and handheld gear.</p>
+          </article>
+          <article class="card">
+            <h3>Tool-Specific Mounts</h3>
+            <p>Custom mounts tuned for frequently-used workshop tools.</p>
+          </article>
+          <article class="card">
+            <h3>Adapters & Clips</h3>
+            <p>Spacers and edge parts that make your rail system more modular.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel roadmap" aria-labelledby="roadmap-title">
+        <h2 id="roadmap-title">Next Up</h2>
+        <ul>
+          <li>Add preview images for each STL model.</li>
+          <li>Tag models by print time and material.</li>
+          <li>Publish assembly notes for complete rail layouts.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year"></span> Hangry Rail. Built for GitHub Pages and
+        workshop tinkerers.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
