@@ -21,3 +21,4 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - toc.integrate
