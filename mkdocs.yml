@@ -1,7 +1,7 @@
 site_name: Hangry Rail
 docs_dir: src
 site_dir: docs
-site_description: 3D printed mounts and hangers for 1x4 and 2x4 rail setups.
+site_description: 3D printed mounts and hangers for garage tools.
 site_url: https://sudo-robot-destroy.github.io/hangry_rail
 repo_url: https://github.com/sudo-robot-destroy/hangry_rail
 
