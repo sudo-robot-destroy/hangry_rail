@@ -5,21 +5,13 @@ There is a lot of variability of boards dimensions so the mounts might not fit s
 
 To help with this, press the mount downward while tightening the screw.And don't use countersink screws, they'll lift the mount away from the board. Also, purposely angling the screw against the bottom of the hole helps as well. 
 
-## Request new designs
-To request new mounts, or to add your own, open an issue on the github page (link in the left pane)  
-
-## Base template dimensions
-Thickness: .3"  
-Overhang: .375"  
-Opening 3.51"  
-
 ---
 
 ## Circular Tool Mount
 
 <img src="images/circular_tool_mount.png" alt="Circular Tool Mount" width="420" />
 
-Originally designed for a pole hedge trimmer, this mount works good for any tool with a circular profile. The opening is 1" in diameter.
+Originally designed for a pole hedge trimmer, this mount works good for any tool with a circular profile. The opening is 1" in diameter, max should diameter is around 2". 
 
 [Download STL](stl/circular_tool_mount.stl)
 
@@ -32,3 +24,13 @@ Originally designed for a pole hedge trimmer, this mount works good for any tool
 This is a general purpose mount, ideal for rakes, brooms, snow shovels, etc. 
 
 [Download STL](stl/universal_hook.stl)
+
+---
+
+## Request new designs
+To request new mounts, or to add your own, open an issue on the github page (link in the left pane)  
+
+## Base template dimensions
+Thickness: .3"  
+Overhang: .375"  
+Opening 3.51"  
