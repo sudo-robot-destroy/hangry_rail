@@ -5,6 +5,11 @@ site_description: 3D printed mounts and hangers for 1x4 and 2x4 rail setups.
 site_url: https://sudo-robot-destroy.github.io/hangry_rail
 repo_url: https://github.com/sudo-robot-destroy/hangry_rail
 
+nav:
+  - Home: index.md
+  - GitHub: https://github.com/sudo-robot-destroy/hangry_rail
+  - Onshape: https://cad.onshape.com/documents?nodeId=a861cdf0a7db1a27e0029c56&resourceType=folder
+
 theme:
   name: material
   palette:
