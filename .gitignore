@@ -15,3 +15,9 @@ Thumbs.db
 # Python cache (if utility scripts are added later)
 __pycache__/
 *.pyc
+
+# MkDocs intermediate build cache
+.cache/
+
+# uv virtual environment
+.venv/
