@@ -6,7 +6,7 @@ site_url: https://sudo-robot-destroy.github.io/hangry_rail
 repo_url: https://github.com/sudo-robot-destroy/hangry_rail
 
 nav:
-  - Information: index.md
+  - Introduction: index.md
   - GitHub: https://github.com/sudo-robot-destroy/hangry_rail
   - Onshape: https://cad.onshape.com/documents?nodeId=a861cdf0a7db1a27e0029c56&resourceType=folder
 

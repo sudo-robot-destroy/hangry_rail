@@ -1,20 +1,20 @@
-A collection of 3D printed mounts and hangers for garage tools designed to mount to a horizontal 1x4 or 2x4 board.
+A collection of 3D printed mounts and hangers for garage tools designed to mount to a horizontal 1x4 or 2x4 board. There's mount for things like shovels, rakes, hedge trimmers, etc. 
 
 ## Installing notes
 There is a lot of variability of boards dimensions so the mounts might not fit snug on some. 
 
-To help with this, don't use countersink screws, they'll lift the mount away from the board. Also press the mount downward while tightening the screw. Purposely angling the screw against the bottom of the hole helps as well. 
+To help with this, don't use countersink screws, they'll lift the mount away from the board. Also press the mount downward while tightening the screw. Purposely angling the screw against the bottom of the hole helps as well. You want the printed part to hold the weight, not the screw.  
 
 ## Base template dimensions
-Thickness: .3"
-Overhand: .375"
-Opening 3.51"
+Thickness: .3"  
+Overhang: .375"  
+Opening 3.51"  
 
 ---
 
 ## Circular Tool Mount
 
-![Circular Tool Mount](images/circular_tool_mount.png)
+<img src="images/circular_tool_mount.png" alt="Circular Tool Mount" width="420" />
 
 Description placeholder — describe the part here.
 
@@ -24,7 +24,7 @@ Description placeholder — describe the part here.
 
 ## Universal Hook
 
-![Universal Hook](images/universal_hook.png)
+<img src="images/universal_hook.png" alt="Universal Hook" width="420" />
 
 Description placeholder — describe the part here.
 
